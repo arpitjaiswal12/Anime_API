@@ -20,7 +20,7 @@ const Navbar = () => {
             >
               Home
             </Link>
-            <Link
+            {/* <Link
               to="/anime-seasons"
               className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
             >
@@ -37,11 +37,11 @@ const Navbar = () => {
               className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
             >
               Contact
-            </Link>
+            </Link> */}
           </div>
 
           {/* Mobile Menu Button */}
-          <div className="md:hidden flex items-center">
+          {/* <div className="md:hidden flex items-center">
             <button
               type="button"
               className="text-gray-300 hover:bg-gray-700 hover:text-white focus:outline-none focus:text-white focus:bg-gray-700 p-2 rounded-md"
@@ -64,7 +64,7 @@ const Navbar = () => {
                 />
               </svg>
             </button>
-          </div>
+          </div> */}
         </div>
       </div>
 
@@ -77,7 +77,7 @@ const Navbar = () => {
           >
             Home
           </Link>
-          <Link
+          {/* <Link
             to="/anime-seasons"
             className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
           >
@@ -94,7 +94,7 @@ const Navbar = () => {
             className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
           >
             Contact
-          </Link>
+          </Link> */}
         </div>
       </div>
     </nav>
